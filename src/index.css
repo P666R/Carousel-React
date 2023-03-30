@@ -261,7 +261,7 @@ ul {
   max-width: 800px;
   position: relative;
   height: 450px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .slide {
@@ -349,4 +349,30 @@ ul {
     height: 2rem;
     font-size: 1.25rem;
   }
+}
+
+.next-slide {
+  transform: translateX(100%);
+}
+
+/* ============= SLICK CAROUSEL =============== */
+
+.slick-container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 80vw;
+  max-width: 800px;
+  text-align: center;
+}
+
+.slick-slide img {
+  display: inline-block;
+}
+
+.slick-prev::before {
+  color: var(--primary-500) !important;
+}
+
+.slick-next::before {
+  color: var(--primary-500) !important;
 }
